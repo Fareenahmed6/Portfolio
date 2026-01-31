@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Fareen Ahmed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <script type="module" crossorigin src="./assets/main-S70oXzj5.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/main-BbbHhx8L.css">
+</head>
+
+<body>
+    <header class="site-header glass">
+        <div class="nav-left">
+            <ul class="nav-links">
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="skills.html" class="nav-link">Skills</a></li>
+                <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+            </ul>
+        </div>
+        <div class="nav-center">
+            <a href="index.html" class="logo">Fareen</a>
+        </div>
+        <div class="nav-right">
+            <a href="contact.html" class="nav-btn">Contact</a>
+        </div>
+        <button class="hamburger" aria-label="Toggle navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <div class="mobile-menu">
+        <button class="mobile-back-btn" aria-label="Close Menu">
+            <i class="fas fa-arrow-left"></i>
+        </button>
+        <a href="index.html" class="mobile-home-btn" aria-label="Go Home">
+            <i class="fas fa-home"></i>
+        </a>
+        <ul class="mobile-nav-links">
+            <li><a href="about.html" class="mobile-nav-link">About</a></li>
+            <li><a href="skills.html" class="mobile-nav-link">Skills</a></li>
+            <li><a href="projects.html" class="mobile-nav-link">Projects</a></li>
+            <li><a href="blog.html" class="mobile-nav-link">Blog</a></li>
+            <li><a href="contact.html" class="nav-btn">Contact</a></li>
+        </ul>
+    </div>
+
+    <main style="padding-top: 100px; min-height: 100vh; padding-bottom: 4rem;">
+        <section id="projects" class="container projects-section">
+            <div class="projects-header fade-in-section">
+                <h1 class="heading-xl">My Works</h1>
+                <p class="section-subtitle">Witness the beauty of engineering through my lens.</p>
+            </div>
+
+            <div class="carousel-wrapper fade-in-section delay-100">
+                <button class="carousel-btn prev-btn" aria-label="Previous Project">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+
+                <div class="projects-carousel">
+                    <!-- Granite Pro Suite -->
+                    <article class="project-card-portrait">
+                        <div class="card-bg">
+                            <img src="projects/granite.png" alt="Granite Pro Suite">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-tags">
+                                <span class="card-tag">Startup / Enterprise</span>
+                            </div>
+                            <h3 class="card-title">Granite Pro Suite</h3>
+                            <button class="card-arrow" aria-label="View Details">
+                                <i class="fas fa-arrow-up-right-from-square"></i>
+                            </button>
+                        </div>
+                        <div class="card-hover-details">
+                            <p>Secure enterprise app with QR tracking, CORS security, and AI chatbot system.</p>
+                            <div class="tech-stack-mini">
+                                <span>Angular</span><span>Node.js</span><span>AI</span><span>Cybersecurity</span>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- MenuQ Project -->
+                    <article class="project-card-portrait">
+                        <div class="card-bg">
+                            <img src="projects/menuq.png" alt="MenuQ POS & Hotel Mgmt">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-tags">
+                                <span class="card-tag">Full Stack</span>
+                            </div>
+                            <h3 class="card-title">MenuQ POS System</h3>
+                            <button class="card-arrow" aria-label="View Details">
+                                <i class="fas fa-arrow-up-right-from-square"></i>
+                            </button>
+                        </div>
+                        <div class="card-hover-details">
+                            <p>POS system and full hotel management system built with MERN vite.</p>
+                            <div class="tech-stack-mini">
+                                <span>React</span><span>Node.js</span><span>MongoDB</span><span>Vite</span>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Project 1 -->
+                    <article class="project-card-portrait">
+                        <div class="card-bg">
+                            <img src="projects/medical.png" alt="ICD-10 Code Classification">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-tags">
+                                <span class="card-tag">ML / NLP</span>
+                            </div>
+                            <h3 class="card-title">ICD-10 Code Classification</h3>
+                            <button class="card-arrow" aria-label="View Details">
+                                <i class="fas fa-arrow-up-right-from-square"></i>
+                            </button>
+                        </div>
+                        <div class="card-hover-details">
+                            <p>Built a machine learning pipeline to classify clinical text into ICD-10 medical codes
+                                with 88% accuracy.</p>
+                            <div class="tech-stack-mini">
+                                <span>Python</span><span>NLP</span><span>ML</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card-portrait">
+                        <div class="card-bg">
+                            <img src="projects/ai.png" alt="Offline RAG System">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-tags">
+                                <span class="card-tag">Generative AI</span>
+                            </div>
+                            <h3 class="card-title">Offline RAG System</h3>
+                            <button class="card-arrow" aria-label="View Details">
+                                <i class="fas fa-arrow-up-right-from-square"></i>
+                            </button>
+                        </div>
+                        <div class="card-hover-details">
+                            <p>Retrieval-Augmented Generation system for offline document intelligence using LangChain
+                                and SBERT.</p>
+                            <div class="tech-stack-mini">
+                                <span>LangChain</span><span>SBERT</span><span>OCR</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card-portrait">
+                        <div class="card-bg">
+                            <img src="projects/web.png" alt="Full-Stack Application">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-tags">
+                                <span class="card-tag">Web Dev</span>
+                            </div>
+                            <h3 class="card-title">Full-Stack CRUD Apps</h3>
+                            <button class="card-arrow" aria-label="View Details">
+                                <i class="fas fa-arrow-up-right-from-square"></i>
+                            </button>
+                        </div>
+                        <div class="card-hover-details">
+                            <p>Scalable E-commerce and Library Management systems built with MERN stack.</p>
+                            <div class="tech-stack-mini">
+                                <span>React</span><span>Node.js</span><span>MongoDB</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Spacer for scroll feel -->
+                    <div style="min-width: 5vw;"></div>
+                </div>
+
+                <button class="carousel-btn next-btn" aria-label="Next Project">
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Custom Cursor & Background -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+</body>
+
+</html>
