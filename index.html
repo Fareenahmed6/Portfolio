@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+  <header class="site-header glass">
+    <div class="nav-left">
+      <ul class="nav-links">
+        <li><a href="/about.html" class="nav-link">About</a></li>
+        <li><a href="/skills.html" class="nav-link">Skills</a></li>
+        <li><a href="/projects.html" class="nav-link">Projects</a></li>
+        <li><a href="/blog.html" class="nav-link">Blog</a></li>
+      </ul>
+    </div>
+    <div class="nav-center">
+      <a href="/" class="logo">Fareen</a>
+    </div>
+    <div class="nav-right">
+      <a href="/contact.html" class="nav-btn">Contact</a>
+    </div>
+    <button class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu">
+    <button class="mobile-back-btn" aria-label="Close Menu">
+      <i class="fas fa-arrow-left"></i>
+    </button>
+    <a href="/" class="mobile-home-btn" aria-label="Go Home">
+      <i class="fas fa-home"></i>
+    </a>
+    <ul class="mobile-nav-links">
+      <li><a href="/about.html" class="mobile-nav-link">About</a></li>
+      <li><a href="/skills.html" class="mobile-nav-link">Skills</a></li>
+      <li><a href="/projects.html" class="mobile-nav-link">Projects</a></li>
+      <li><a href="/blog.html" class="mobile-nav-link">Blog</a></li>
+      <li><a href="/contact.html" class="nav-btn">Contact</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <section id="hero" class="section">
+      <div class="container">
+
+        <div class="hero-grid">
+          <!-- Left: Text -->
+          <div class="hero-text">
+            <h1 class="heading-xl">Hi, I'm Fareen Ahmed</h1>
+            <h2 style="font-size: 1.5rem; font-weight: 600; margin-bottom: 1rem;">Software Developer | Python | Full
+              Stack</h2>
+            <p
+              style="color: var(--text-secondary); font-size: 1.1rem; line-height: 1.8; margin-bottom: 2rem; background: rgba(255,255,255,0.5); padding: 1rem; border-radius: 8px; backdrop-filter: blur(4px);">
+              I am a passionate software developer with expertise in Python, AI, Data Science, Cloud, DevOps, and
+              Generative AI. With over 5+ projects, I specialize in building scalable, efficient, and intelligent
+              applications that solve real-world problems.
+            </p>
+            <div class="home-hero-buttons">
+              <a href="/projects.html" class="btn btn-primary">View Projects</a>
+              <a href="/Fareen_resume.pdf" class="btn btn-outline glass" download>Download Resume</a>
+            </div>
+          </div>
+
+          <!-- Right: Code Editor -->
+          <div class="hero-visual">
+            <div class="code-window">
+              <div class="window-header">
+                <div class="dot red"></div>
+                <div class="dot yellow"></div>
+                <div class="dot green"></div>
+              </div>
+              <div class="code-content">
+                <pre><code><span class="comment"># Developer Profile</span>
+<span class="keyword">class</span> <span class="function">FareenAhmed</span>:
+    <span class="keyword">def</span> <span class="function">__init__</span>(<span class="function">self</span>):
+        <span class="function">self</span>.name = <span class="string">"Fareen Ahmed"</span>
+        <span class="function">self</span>.role = <span class="string">"Full Stack Dev"</span>
+        <span class="function">self</span>.skills = [
+            <span class="string">"Python"</span>, <span class="string">"AI"</span>, <span class="string">"Cloud"</span>,
+            <span class="string">"Data Science"</span>, <span class="string">"DevOps"</span>,
+            <span class="string">"Generative AI"</span>
+        ]
+
+    <span class="keyword">def</span> <span class="function">build_future</span>(<span class="function">self</span>):
+        <span class="keyword">return</span> <span class="string">"Innovation"</span></code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Custom Cursor & Background -->
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

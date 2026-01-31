@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skills | Fareen Ahmed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <header class="site-header glass">
+        <div class="nav-left">
+            <ul class="nav-links">
+                <li><a href="/about.html" class="nav-link">About</a></li>
+                <li><a href="/skills.html" class="nav-link active">Skills</a></li>
+                <li><a href="/projects.html" class="nav-link">Projects</a></li>
+                <li><a href="/blog.html" class="nav-link">Blog</a></li>
+            </ul>
+        </div>
+        <div class="nav-center">
+            <a href="/" class="logo">Fareen</a>
+        </div>
+        <div class="nav-right">
+            <a href="/contact.html" class="nav-btn">Contact</a>
+        </div>
+        <button class="hamburger" aria-label="Toggle navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <div class="mobile-menu">
+        <button class="mobile-back-btn" aria-label="Close Menu">
+            <i class="fas fa-arrow-left"></i>
+        </button>
+        <a href="/" class="mobile-home-btn" aria-label="Go Home">
+            <i class="fas fa-home"></i>
+        </a>
+        <ul class="mobile-nav-links">
+            <li><a href="/about.html" class="mobile-nav-link">About</a></li>
+            <li><a href="/skills.html" class="mobile-nav-link">Skills</a></li>
+            <li><a href="/projects.html" class="mobile-nav-link">Projects</a></li>
+            <li><a href="/blog.html" class="mobile-nav-link">Blog</a></li>
+            <li><a href="/contact.html" class="nav-btn">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="mesh-bg"></div>
+
+    <main style="padding-top: 120px; min-height: 100vh; padding-bottom: 4rem;">
+
+        <!-- Skills Header -->
+        <section class="container section-header fade-in-section">
+            <div class="section-title">Technical Arsenal</div>
+            <p class="section-subtitle">A comprehensive showcase of technologies, frameworks, and tools I leverage to
+                build scalable, intelligent solutions.
+            </p>
+        </section>
+
+        <!-- Skills Stats -->
+        <section class="container fade-in-section delay-100">
+            <div class="skills-stats">
+                <div class="stat-card">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Technologies</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Frameworks</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Cloud Platforms</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Tools & Libraries</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Skills Categories -->
+        <section class="container fade-in-section delay-200">
+            <div class="skills-categories-grid">
+
+                <!-- Programming Languages -->
+                <div class="skill-category-card">
+                    <div class="skill-category-header">
+                        <div class="skill-category-title">Programming Languages</div>
+                    </div>
+                    <div class="skill-tags-grid">
+                        <div class="skill-tag"
+                            title="Advanced proficiency in Python for data science and web development">
+                            <span class="skill-tag-dot"></span>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-tag" title="Experienced in JavaScript for frontend and backend development">
+                            <span class="skill-tag-dot"></span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-tag" title="Proficient in C for low-level programming">
+                            <span class="skill-tag-dot"></span>
+                            <span>C</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Development -->
+                <div class="skill-category-card">
+                    <div class="skill-category-header">
+                        <div class="skill-category-title">Web Technologies</div>
+                    </div>
+                    <div class="skill-tags-grid">
+                        <div class="skill-tag" title="Proficient in React for building interactive UIs">
+                            <span class="skill-tag-dot"></span>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-tag" title="Experienced with Node.js for server-side development">
+                            <span class="skill-tag-dot"></span>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-tag" title="Skilled in Express.js for web applications">
+                            <span class="skill-tag-dot"></span>
+                            <span>Express</span>
+                        </div>
+                        <div class="skill-tag" title="Expert in HTML5 for semantic web structure">
+                            <span class="skill-tag-dot"></span>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-tag" title="Advanced CSS3 for styling and animations">
+                            <span class="skill-tag-dot"></span>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-tag" title="Knowledgeable in REST API design and implementation">
+                            <span class="skill-tag-dot"></span>
+                            <span>REST API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI & Machine Learning -->
+                <div class="skill-category-card">
+                    <div class="skill-category-header">
+                        <div class="skill-category-title">AI & Machine Learning</div>
+                    </div>
+                    <div class="skill-tags-grid">
+                        <div class="skill-tag">
+                            <span class="skill-tag-dot"></span>
+                            <span>TensorFlow</span>
+                        </div>
+                        <div class="skill-tag">
+                            <span class="skill-tag-dot"></span>
+                            <span>Scikit-learn</span>
+                        </div>
+                        <div class="skill-tag">
+                            <span class="skill-tag-dot"></span>
+                            <span>Pandas</span>
+                        </div>
+                        <div class="skill-tag">
+                            <span class="skill-tag-dot"></span>
+                            <span>NumPy</span>
+                        </div>
+                        <div class="skill-tag">
+                            <span class="skill-tag-dot"></span>
+                            <span>NLP</span>
+                        </div>
+                        <div class="skill-tag">
+                            <span class="skill-tag-dot"></span>
+                            <span>Deep Learning</span>
+                        </div>
+                        <div class="skill-tag">
+                            <span class="skill-tag-dot"></span>
+                            <span>LangChain</span>
+                        </div>
+                        <div class="skill-tag">
+                            <span class="skill-tag-dot"></span>
+                            <span>OCR</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cloud & DevOps -->
+                <div class="skill-category-card">
+                    <div class="skill-category-header">
+                        <div class="skill-category-title">Cloud & DevOps</div>
+                    </div>
+                    <div class="skill-tags-grid">
+                        <div class="skill-tag">
+                            <span class="skill-tag-dot"></span>
+                            <span>AWS</span>
+                        </div>
+                        <div class="skill-tag">
+                            <span class="skill-tag-dot"></span>
+                            <span>Azure</span>
+                        </div>
+                        <div class="skill-tag">
+                            <span class="skill-tag-dot"></span>
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-tag">
+                            <span class="skill-tag-dot"></span>
+                            <span>Git/GitHub</span>
+                        </div>
+                        <div class="skill-tag">
+                            <span class="skill-tag-dot"></span>
+                            <span>Linux</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Databases -->
+                <div class="skill-category-card">
+                    <div class="skill-category-header">
+                        <div class="skill-category-title">Databases</div>
+                    </div>
+                    <div class="skill-tags-grid">
+                        <div class="skill-tag">
+                            <span class="skill-tag-dot"></span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="skill-tag">
+                            <span class="skill-tag-dot"></span>
+                            <span>SQL</span>
+                        </div>
+                        <div class="skill-tag">
+                            <span class="skill-tag-dot"></span>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Libraries -->
+                <div class="skill-category-card">
+                    <div class="skill-category-header">
+                        <div class="skill-category-title">Tools & Libraries</div>
+                    </div>
+                    <div class="skill-tags-grid">
+                        <div class="skill-tag">
+                            <span class="skill-tag-dot"></span>
+                            <span>Streamlit</span>
+                        </div>
+                        <div class="skill-tag">
+                            <span class="skill-tag-dot"></span>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="skill-tag">
+                            <span class="skill-tag-dot"></span>
+                            <span>Jupyter Notebook</span>
+                        </div>
+                        <div class="skill-tag">
+                            <span class="skill-tag-dot"></span>
+                            <span>Matplotlib</span>
+                        </div>
+                        <div class="skill-tag">
+                            <span class="skill-tag-dot"></span>
+                            <span>Seaborn</span>
+                        </div>
+                        <div class="skill-tag">
+                            <span class="skill-tag-dot"></span>
+                            <span>Cross-Encoder</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Core Competencies -->
+        <section class="container proficiency-section fade-in-section delay-300">
+            <div class="section-header" style="text-align: left; margin-bottom: 2rem;">
+                <div class="section-title">Core Competencies</div>
+            </div>
+
+            <div class="proficiency-bar-container">
+                <div class="proficiency-label">
+                    <span>Full-Stack Development</span>
+                    <span>90%</span>
+                </div>
+                <div class="proficiency-bar">
+                    <div class="proficiency-fill" data-width="90"></div>
+                </div>
+            </div>
+
+            <div class="proficiency-bar-container">
+                <div class="proficiency-label">
+                    <span>Machine Learning & AI</span>
+                    <span>88%</span>
+                </div>
+                <div class="proficiency-bar">
+                    <div class="proficiency-fill" data-width="88"></div>
+                </div>
+            </div>
+
+            <div class="proficiency-bar-container">
+                <div class="proficiency-label">
+                    <span>Cloud & DevOps</span>
+                    <span>85%</span>
+                </div>
+                <div class="proficiency-bar">
+                    <div class="proficiency-fill" data-width="85"></div>
+                </div>
+            </div>
+
+            <div class="proficiency-bar-container">
+                <div class="proficiency-label">
+                    <span>Data Science & Analytics</span>
+                    <span>87%</span>
+                </div>
+                <div class="proficiency-bar">
+                    <div class="proficiency-fill" data-width="87"></div>
+                </div>
+            </div>
+
+            <div class="proficiency-bar-container">
+                <div class="proficiency-label">
+                    <span>NLP & Generative AI</span>
+                    <span>82%</span>
+                </div>
+                <div class="proficiency-bar">
+                    <div class="proficiency-fill" data-width="82"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Spoken Languages -->
+        <section class="container fade-in-section delay-400" style="margin-top: 6rem;">
+            <div class="section-header" style="text-align: left; margin-bottom: 2rem;">
+                <div class="section-title">Spoken Languages</div>
+            </div>
+
+            <div class="language-cards">
+                <div class="language-card">
+                    <div class="language-flag">🇬🇧</div>
+                    <div class="language-name">English</div>
+                    <div class="language-level">Fluent</div>
+                </div>
+                <div class="language-card">
+                    <div class="language-flag">🇮🇳</div>
+                    <div class="language-name">Hindi</div>
+                    <div class="language-level">Native</div>
+                </div>
+                <div class="language-card">
+                    <div class="language-flag">🇮🇳</div>
+                    <div class="language-name">Kannada</div>
+                    <div class="language-level">Fluent</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Additional Skills -->
+        <section class="container fade-in-section delay-500" style="margin-top: 6rem;">
+            <div class="section-header" style="text-align: left; margin-bottom: 2rem;">
+                <div class="section-title">Other Skills & Expertise</div>
+            </div>
+
+            <div class="tools-showcase">
+                <div class="tool-item">
+                    <div class="tool-icon">🔍</div>
+                    <div class="tool-name">Data Analysis</div>
+                </div>
+                <div class="tool-item">
+                    <div class="tool-icon">📊</div>
+                    <div class="tool-name">Visualization</div>
+                </div>
+                <div class="tool-item">
+                    <div class="tool-icon">🐛</div>
+                    <div class="tool-name">Debugging</div>
+                </div>
+                <div class="tool-item">
+                    <div class="tool-icon">🧪</div>
+                    <div class="tool-name">Testing</div>
+                </div>
+                <div class="tool-item">
+                    <div class="tool-icon">🔄</div>
+                    <div class="tool-name">Agile</div>
+                </div>
+                <div class="tool-item">
+                    <div class="tool-icon">🤝</div>
+                    <div class="tool-name">Collaboration</div>
+                </div>
+                <div class="tool-item">
+                    <div class="tool-icon">💡</div>
+                    <div class="tool-name">Problem Solving</div>
+                </div>
+                <div class="tool-item">
+                    <div class="tool-icon">🔐</div>
+                    <div class="tool-name">Cybersecurity</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="container fade-in-section delay-500" style="margin-bottom: 6rem; margin-top: 8rem;">
+            <div class="glass-panel cta-box">
+                <h2>Ready to Collaborate?</h2>
+                <p style="max-width: 600px; margin: 0 auto 2rem; color: var(--text-secondary); font-size: 1.1rem;">
+                    See how I apply these skills in real-world projects or get in touch to discuss potential
+                    collaboration opportunities.
+                </p>
+                <div class="cta-buttons">
+                    <a href="/projects.html" class="btn btn-primary">View Projects</a>
+                    <a href="/contact.html" class="btn btn-outline">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Custom Cursor & Background -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
