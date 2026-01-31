@@ -10,6 +10,7 @@ export default defineConfig({
                 about: resolve(__dirname, 'about.html'),
                 projects: resolve(__dirname, 'projects.html'),
                 blog: resolve(__dirname, 'blog.html'),
+                skills: resolve(__dirname, 'skills.html'),
                 contact: resolve(__dirname, 'contact.html'),
             },
         },
